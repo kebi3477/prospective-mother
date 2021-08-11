@@ -1,0 +1,260 @@
+.dd{
+    width: 100%;
+    height: 78px;
+}
+.imgslide{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+}
+.imgslide img{
+    width: 100%;
+    height: 100%;
+    
+}
+.board_text{
+    width: 1200px;
+    height: 50px;
+    /* background-color: rebeccapurple; */
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.left_title{
+    width: 310px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #ade0ed; */
+}
+.parenting,.reserve,.dad{
+    font-size: 18px;
+    text-align: center;
+    line-height: 45px; 
+    cursor: pointer;
+}
+.search_all{
+    width: 350px;
+    height: 40px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    margin-right: 120px;
+}
+.select{
+    width: 80px;
+    height: 40px;
+    border-radius: 7px;
+    padding-left: 5px;
+    outline: 0;
+    border: solid 2px #ddd;
+}
+.search{
+    width: 260px;
+    height: 40px;
+    /* background-color: rebeccapurple; */
+    position: relative;
+}
+.search_text{
+    width: 260px;
+    height: 40px;
+    border-radius: 6px;
+    border: solid 2px #ddd;
+    padding-left: 10px;
+    outline: 0;
+   
+}
+.search_btn{
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    top: 22%;
+    left: 87%;
+    outline: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.search_btn img{
+    width: 100%;
+    height: 100%;
+}
+.main_board{
+    margin: 0 auto;
+    z-index: 99;
+    width: 100%;
+    height: 850px;
+    padding-top: 40px;
+    border-top: solid 3px #fdc389;
+    background-color: #fff8ef;
+}
+.parenting{
+    width: 100px;
+    height: 50px;
+    margin-top: 3px;
+    border: solid 3px #fdc389;
+    background-color: #fff8ef;
+    border-radius: 4px;
+    border-bottom: none;
+    
+}
+.reserve,.dad{
+    width: 100px;
+    height: 45px;
+    margin-top: 6px;
+    border: solid 3px #e9e9e9;
+    margin-left: 3px;
+    border-radius: 4px;
+    border-bottom: none;
+}
+.reserve:hover{
+    background-color: #f7a6a8;
+    border: solid 1px #ccc;
+}
+.dad:hover{
+    background-color: #ade0ed;
+    border: solid 1px #ccc;
+}
+
+
+.board{
+    width: 960px;
+    height: 500px;
+    margin: 0 auto;
+}
+.board_table{
+    width: 960px;
+    /* min-height: 150px; */
+    max-height: 500px;
+    background-color: #000;
+    border-spacing: 0;
+    background-color: #fff;
+    text-align: center;
+    border-top: solid 1.5px rgb(185, 185, 185);
+    border-bottom: solid 1px rgb(185, 185, 185);
+}
+.board_table td{
+    border-bottom: solid 0.5px rgb(185, 185, 185);
+}
+
+.board_table th{
+    height: 40px;
+    border-right: solid 0.5px  rgb(185, 185, 185);
+    background-color: #fdc389;
+}
+.board_table tr{
+    height: 45px;
+}
+.num{
+    width: 50px;
+}
+tbody td{
+    border-right: solid 0.5px rgb(185, 185, 185);
+}
+.end_td{
+    /* border-right: solid 0.5px #fff; */
+    border: none;
+}
+.title{
+    width: 450px;
+}
+.name{
+    width: 150px;
+}
+.day{
+    width: 150px;
+}
+.click_num,.good{
+    width: 80px;
+}
+.board_table .good{
+    border: none;
+}
+.writing_btn{
+    width: 960px;
+    height: 60px;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.writing{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    outline: 0;
+    font-weight: bold;
+    background-color: #fcc986;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.writing:hover{
+    background-color: #ecb164;
+}
+.writing img{
+    width: 23px;
+    height: 23px;
+}
+.writing span{
+    font-size: 15px;
+    margin-left: -20px;
+}
+.ff{
+    width: 100%;
+    height: 120px;
+}
+.page_btn_grop{
+    width: 960px;
+    height: 60px;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page_btn_class2{
+    /* display: inline-block; */
+    width: 50px;
+    height: 50px;
+    /* background-color: rosybrown; */
+}
+.page_btn_class2 img{
+    width: 30px;
+    height: 30px;
+    /* margin-top: 10px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.page_btn_class{
+    display: inline-block;
+    width: 35px;
+    height: 40px;
+    text-align: center;
+    line-height: 37px;
+    margin: 0px 5px 0px 5px;
+}
+.page_btn{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #fbbf86;
+    text-align: center;
+    border-radius: 8px;
+    line-height: 32px;
+    font-size: 18px; 
+}
+.page_no{
+    display: inline-block;
+    align-items: center;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/*  pregnant_board  */

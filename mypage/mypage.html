@@ -1,0 +1,118 @@
+<?php
+
+session_start();
+include "../dbcon.php";
+
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imgs/logo_icon.png" type="image/x-icon">
+    <script src="../js/jquery-1.12.3.js" type="text/javascript"></script>
+    <script src="../js/script.js" defer="defer" type="text/javascript"></script>
+    <link rel="stylesheet" href="../css/mypage.css">
+    <link rel="stylesheet" href="../css/top_bottom.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <div class="logo">
+               <a href="../index.php"><img src="../imgs/logo.png" alt=""></a>
+            </div>
+            <div class="rmenu">
+                <ul class="menu">
+                    <li class="menu_text"><a href="../spare_plan.php">예비엄마준비중</a></li>
+                    <li class="menu_text"><a href="../board/parenting_board.php">함께소통해요</a></li>
+                    <li class="menu_text"><a href="../free_share/free_share.php">무료나눔</a></li>
+                </ul>
+                <?php
+                if(isset($_SESSION['user_nickname'])){
+                ?>
+                <ul class="logout">
+                    <li><a href="#">마이페이지</a></li>
+                    <span class="line_span"></span>
+                    <li><a href="../signup/logout.php">로그아웃</a></li>
+                </ul>
+                <?php    
+                }
+                else{
+                ?>
+                <a href="../signup/login.html">
+                    <button class="login">
+                        <span>로그인 / 회원가입</span>
+                    </button>
+                </a>
+                <?php
+                }
+                ?>
+            </div>
+        </div>
+    </header>
+    <div class="dd">
+
+    </div>
+    <div class="main">
+        <div class="main_body">
+            <div class="body_top">
+                <h2>님의 기본정보</h2>
+                <div class="member">
+                    <span class="member_text">회원정보수정</span>
+                    <span class="line"></span>
+                    <span class="member_text">회원탈퇴</span>
+                </div>
+            </div>
+            <div class="check_line">
+                <img src="../imgs/check.png" alt="체크이미지"><span>님이 작성한 게시판</span>
+            </div>
+            <div class="tab">
+                <div class="box box1">
+                    <span>무료나눔</span>
+                </div>
+                <div class="box box2">
+                    <span>육아</span>
+                </div>
+                <div class="box box3">
+                    <span>임신</span>
+                </div>
+                <div class="box box4">
+                    <span>예비아빠</span>
+                </div>
+            
+                <div class="board">
+                    <div class="board_body">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer_center">
+            <div class="fmenu">
+                <ul>
+                    <a href="#"><li>상호 | (주)예비엄마</li></a>
+                    <a href="#"><li>사이트명 | (주)예비엄마</li></a>
+                    <a href="#"><li>대표 | 고창민</li></a>
+                    <a href="#"><li>사업자번호 | 123-45-67890</li></a>
+                    <a href="#"><li>통신판매 | 제2020-제주-012345</li></a>
+                    <a href="#"><li>작업정보제공 | J12345678912345</li></a>
+                </ul>
+                <ul>
+                    <a href="#"><li>주소 | [63243] 제주특별자치도 제주시 조현동3길 2</li></a>
+                    <a href="#"><li>전화 | 1234-5678</li></a>
+                    <a href="#"><li>이메일 | mother@nothing</li></a>
+                    <a href="#"><li>계좌번호 | [혜경은행] 1234-567-890123, 예금주 : (주)예비엄마</li></a>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

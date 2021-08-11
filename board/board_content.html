@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/top_bottom.css">
+    <link rel="stylesheet" href="../css/board_content.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div class="logo">
+                <a href="../index.php"><img src="../imgs/logo.png" alt="로고"></a>
+            </div>
+            <div class="rmenu">
+                <ul class="menu">
+                    <li class="menu_text"><a href="#">예비엄마준비중</a></li>
+                    <li class="menu_text"><a href="#">함께소통해요</a></li>
+                    <li class="menu_text"><a href="#">무료나눔</a></li>
+                    <li class="the"><a href="#">더보기&nbsp;<img src="../imgs/morebtn.png" alt="더보기버튼"></a>
+                        <ul class="submenu">
+                            <div class="sub">
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">이벤트</a></li>
+                                <li><a href="#">자주묻는질문</a></li>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <ul class="logout">
+                    <li><a href="#">마이페이지</a></li>
+                    <span class="line_span"></span>
+                    <li><a href="signup/logout.php">로그아웃</a></li>
+                </ul>
+                <?php    
+                }
+                else{
+                ?>
+                <a href="signup/login.html">
+                    <button class="login">
+                        <span>로그인 / 회원가입</span>
+                    </button>
+                </a>
+                <?php
+                }
+                ?>
+            </div>
+        </div>
+    </header>
+    
+        <div class="bg">
+            <div id="dd"></div>
+            <div class="main_board">
+                <div class="board_header">
+                    <p class="type">육아</p>
+                    <p><button class="report"><img src="../imgs/report.png" alt="신고이미지">신고하기</button></p>
+                </div>
+                <div class="board_title">
+                    <h2>TITLE</h2>
+                </div>
+                <div class="name_block">
+                    <div class="name_day">
+                        <p>고혜경</p>
+                        <span>2020-10-27</span>
+                        <span>조회수 0</span>
+                    </div>
+                    <div class="good_img">
+                        <img src="../imgs/good.png" alt="좋아요이미지">
+                    </div>
+                </div>
+                <div class="board_content">
+                    여기는 글작성 내용 부분
+                </div>
+                <div class="the">
+                    <span>고혜경님의 게시글 더보기</span>
+                    <div class="up_delete">
+                        <span>수정</span>
+                        <span class="line">|</span>
+                        <span>삭제</span>
+
+                    </div>
+                </div>
+                <div class="that_line">
+                    <p class="good_text">
+                        <img src="../imgs/good2.png" alt="좋아요2">
+                        <span>좋아요</span>
+                    </p>
+                    <p class="that">
+                        <img src="../imgs/talk.png" alt="댓글말풍선이미지">
+                        <span>댓글</span>
+                    </p>
+                </div>
+                <div class="bottom_that">
+                    <span>댓글</span>
+                </div>
+                <div class="that_content">
+                    <div class="con_flex">
+                        <p class="nick_name">우리아기귀요미</p>
+                        <p class="that_con">저도 게시글 올려보고 싶네요.</p>
+                        <p class="that_day">2020-10-27-3:30</p>
+                    </div>
+                    <div class="up_delete2">
+                        <span>수정</span>
+                        <span></span>
+                        <span>삭제</span>
+                    </div>
+                </div>
+            </div>
+            <div id="ff"></div>
+        </div>
+        
+    <footer>
+        <div class="footer_center">
+            <div class="fmenu">
+                <ul>
+                    <a href="#">
+                        <li>상호 | (주)예비엄마</li>
+                    </a>
+                    <a href="#">
+                        <li>사이트명 | (주)예비엄마</li>
+                    </a>
+                    <a href="#">
+                        <li>대표 | 고창민</li>
+                    </a>
+                    <a href="#">
+                        <li>사업자번호 | 123-45-67890</li>
+                    </a>
+                    <a href="#">
+                        <li>통신판매 | 제2020-제주-012345</li>
+                    </a>
+                    <a href="#">
+                        <li>작업정보제공 | J12345678912345</li>
+                    </a>
+                </ul>
+                <ul>
+                    <a href="#">
+                        <li>주소 | [63243] 제주특별자치도 제주시 조현동3길 2</li>
+                    </a>
+                    <a href="#">
+                        <li>전화 | 1234-5678</li>
+                    </a>
+                    <a href="#">
+                        <li>이메일 | mother@nothing</li>
+                    </a>
+                    <a href="#">
+                        <li>계좌번호 | [혜경은행] 1234-567-890123, 예금주 : (주)예비엄마</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

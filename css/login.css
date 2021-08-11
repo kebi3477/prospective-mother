@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Noto Sans KR";
+}
+.dd{
+    height: 75px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.login_align{
+    margin: 0 auto;
+    width: 1150px;
+    height: 1000px;
+    margin-left: 350px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+    /* background-color: #ddd; */
+}
+.login_align img{
+    width: 600px;
+    height: 380px;
+    margin-top: 80px;
+    /* position: absolute;
+    top: 15%;
+    left: 50%; */
+}
+.login_form{
+    width: 320px;
+    margin-top: 160px;
+    /* background-color: #ddd; */
+}
+.login_form h2{
+    font-size: 28px;
+}
+table{
+    width: 320px;
+    height: 190px;
+}
+
+.id,.pw{
+    width: 320px;
+    height: 50px;
+    outline: 0;
+    border: solid 1px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 0.9em;
+}
+.login_box{
+    width: 320px;
+    height: 50px;
+    border: solid 1px;
+    outline: 0;
+    border-radius: 5px;
+    background-color: #fba351;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+}
+.login_box:hover{
+    opacity: 0.8;
+}
+
+.text{
+    width: 250px;
+    margin: 0 auto;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+}
+.gray{
+    margin-top: 7px;
+    height: 12px;
+    /* background-color: rgb(216, 216, 216); */
+    cursor: pointer;
+}
+.gray_line{
+    width: 2px;
+    background-color: #ddd;
+    height: 15px;
+    margin-top: 11px;
+}
+
+/*      회원가입 css    */
+body{
+    background-color: #fffbf2;
+}
+.signup_logo{
+    width: 350px;
+    height: 90px;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: center;
+}
+.signup_logo img{
+    width: 225px;
+    height: 100px;
+}
+.align{
+    margin: 0 auto;
+    width: 350px;
+    height: 1000px;
+    padding-top: 150px;
+    /* background-color: #ddd; */
+}
+.signup_form{
+    margin-top: 40px;
+    width: 360px;
+    height: 600px;
+    /* border: solid 1px; */
+    /* position: absolute; */
+    /* top: 32%; */
+}
+
+.signup_table{
+    height: 550px;
+    width: 350px;
+    /* border: solid 1px; */
+}
+.signup_text{
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+}
+.basic_text{
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+.gray{
+    color: gray;
+    font-size: 13px;
+    letter-spacing: -1.2px;
+}
+.sign_id,.sign_pw,.sign_pw1,.name,.address,.nickname,.email{
+    width: 350px;
+    height: 50px;
+    padding-left: 10px;
+    outline: 0;
+    border: solid 1px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+.id_td{
+    position: relative;
+}
+.id_check{
+    width: 70px;
+    height: 35px;
+    background-color: #ddd;
+    color: #000;
+    border: none;
+    outline: 0;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+    position: absolute;
+    top: 11px;
+    left: 77%;
+}
+.pw_td{
+    position: relative;
+}
+.pw_check{
+    position: absolute;
+    color: red;
+    top: 30%;
+    left: 62%;
+    font-size: 13px;
+    display: none;
+}
+.pw_check1{
+    position: absolute;
+    color: green;
+    top: 30%;
+    left: 60%;
+    font-size: 13px;
+    display: none;
+}
+.nick_td{
+    position: relative;
+}
+.nick_check{
+    width: 70px;
+    height: 35px;
+    background-color: #ddd;
+    color: #000;
+    border: none;
+    outline: 0;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+    position: absolute;
+    top: 11px;
+    left: 77%;
+}
+.point_text{
+    color: gray;
+    font-size: 13px;
+    letter-spacing: -1.2px;
+}
+.tel_td{
+    width: 350px;
+    height: 40px;
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+.tel{
+    width: 110px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px;
+    outline: 0;
+    padding-left: 10px;
+    font-size: 0.9em;
+}
+.signup_box{
+    width: 350px;
+    height: 50px;
+    background-color: #fba351;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: 0;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.signup_box:hover{
+    opacity: 0.8;
+}
+/*회원정보수정*/
+.id_revise{
+    width: 350px;
+    height: 50px;
+    padding-left: 10px;
+    outline: 0;
+    border: solid 1px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    color: #666;
+}
+.box_flex{
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+}
+
+.revise_box{
+    width: 165px;
+}
+.back{
+    width: 165px;
+    height: 50px;
+    background-color: #fba351;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: 0;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.td_h{
+    height: 2px;
+}
+/* 아이디 찾기  */
+.id_pop{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 999;
+    display: none;
+}
+.id_body{
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    background-color: #fffaf2;
+    top: 30%;
+    left: 38%;
+}
+.id_body h2{
+    font-size: 26px;
+    height: 105px;
+    /* background-color: rebeccapurple; */
+    font-weight: 200;
+    text-align: center;
+    line-height: 110px;
+}
+.id_body_top{
+    height: 30px;
+    background-color: #ffd8ad;
+    display: flex;
+    justify-content: flex-end;
+}
+.id_body_top img{
+    width: 20px;
+    height: 20px;
+    margin: 5px 10px 0px 0px;
+    cursor: pointer;
+}
+.id_bottom{
+    width: 200px;
+    height: 60px;
+    margin: 0 auto;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.id_bottom button{
+    width: 90px;
+    height: 45px;
+    background-color: #fff;
+    border: solid 2px #ffd8ad;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.id_table{
+    width: 320px;
+    height: 230px;
+    text-align: center;
+    margin: 0 auto;
+}
+.id_input,.tel_input,.id_sub{
+    width: 320px;
+    height: 50px;
+    border-radius: 6px;
+    border: solid 1px;
+    outline: 0;
+    padding-left: 10px;
+}
+.id_sub{
+    width: 320px;
+    height: 50px;
+    border: solid 1px;
+    outline: 0;
+    border-radius: 5px;
+    background-color: #fba351;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.id_sub:hover{
+    opacity: 0.8;
+}
+.id_se_text{
+    text-align: left;
+    font-size: 14px;
+    color: #808080;
+    padding-left: 5px;
+}
+.id_email{
+    letter-spacing: -0.5px;
+}
+/* 비밀번호 찾기  */
+.pw_pop{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 999;
+    display: none;
+}
+
+.pw_body{
+    position: absolute;
+    width: 550px;
+    height: 450px;
+    background-color: #fffaf2;
+    top: 30%;
+    left: 38%;
+}
+.pw_body h2{
+    font-size: 26px;
+    height: 105px;
+    /* background-color: rebeccapurple; */
+    font-weight: 200;
+    text-align: center;
+    line-height: 110px;
+}
+.pw_body_top{
+    height: 30px;
+    background-color: #ffd8ad;
+    display: flex;
+    justify-content: flex-end;
+}
+.pw_body_top img{
+    width: 20px;
+    height: 20px;
+    margin: 5px 10px 0px 0px;
+    cursor: pointer;
+}
+
+
+.pw_table,.pw_re_table{
+    width: 320px;
+    height: 280px;
+    text-align: center;
+    margin: 0 auto;
+}
+.id_input,.name_input,.tel_input,.id_sub{
+    width: 320px;
+    height: 50px;
+    border-radius: 6px;
+    border: solid 1px;
+    outline: 0;
+    padding-left: 10px;
+}
+.pw_sub{
+    width: 320px;
+    height: 50px;
+    border: solid 1px;
+    outline: 0;
+    border-radius: 5px;
+    background-color: #fba351;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.pw_sub:hover{
+    opacity: 0.8;
+}
+.pw_se_text{
+    text-align: left;
+    font-size: 14px;
+    color: #808080;
+    padding-left: 5px;
+}
+.id_email{
+    letter-spacing: -0.5px;
+}
+.btn_size{
+    font-size: 16px;
+    outline: 0;
+    cursor: pointer;
+}
+.pw_re_table{
+    height: 230px;
+}
+.pw_re{
+    width: 100%;
+    height: 765px;
+    /* background-color: red; */
+}
+.pw_bg{
+    padding-top: 180px;
+    margin: 0 auto;
+    width: 550px;
+    height: 500px;
+    /* background-color: rebeccapurple; */
+}
+.pw_bg h2{
+    text-align: center;
+    height: 60px;
+}

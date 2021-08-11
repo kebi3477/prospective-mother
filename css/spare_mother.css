@@ -1,0 +1,243 @@
+.dd{
+    height: 100px;
+    background-color: #fef0ee;
+}
+/* main 영역 구분 */
+.main{
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    height: 3300px;
+    background-color: #fef0ee;
+}
+.main2{
+    height: 4500px;
+}
+.main3{
+    height: 2800px;
+}
+.main4{
+    height: 2400px;
+}
+.main5{
+    height: 4200px;
+}
+.main6{
+    height: 2200px;
+}
+.main7{
+    height: 2100px;
+}
+.main8{
+    height: 2500px;
+}
+/* main 영역 구분 끝 */
+.li_bgcolor{
+    background-color: #f6a5a7;
+    color: #fff;
+}
+.tab{
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    background-color: #fef0ee;
+    left: 21%;
+    top: -60px;
+    border-radius: 8px 8px 0px 0px;
+    border-top: solid 2px #f6a5a7;
+    border-right: solid 2px #f6a5a7;
+    border-left: solid 2px #f6a5a7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_grop{
+    position: absolute;
+    left: 16%;
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    /* background-color: rebeccapurple; */
+}
+.left_menu{
+    width: 200px;
+    height: 600px;
+    background-color: #ddd;
+    /* border: solid 1px #ddd; */
+}
+.board{
+    width: 1000px;
+    background-color: #fff;
+    border: solid 2px #ddd;
+}
+
+.board img{
+    width: 100%;
+}
+.menu_img{
+    width: 200px;
+    height: 200px;
+    background-color: #f6a5a7;
+    overflow: hidden;
+}
+.menu_img h3{
+    height: 50px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.menu_img img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: -10px 0px 0px 18px;
+    /* background-color: blueviolet; */
+}
+.mother_menu{
+    height: 400px;
+    background-color: #fff;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    border-left: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+}
+.mother_menu li{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: solid 1px #ccc;
+}
+.mother_menu li:hover{
+    background-color: #f6a5a7;
+    color: #fff;
+}
+/* bottom 구분 영역 */
+.bottom{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    background-color: #fef0ee;
+    top: 86.5%;
+    left: 29.1%;
+}
+.bt2{
+    top: 90%;
+}
+.bt3{
+    top: 89.3%;
+}
+.bt4{
+    top: 84%;
+}
+.bt5{
+    top: 93%;
+}
+.bt6{
+    top: 83.5%;
+}
+.bt7{
+    top: 83.5%;
+}
+.bt8{
+    top: 86%;
+}
+/* bottom 구분 영역 끝 */
+.top{
+    width: 80px;
+    height: 40px;
+    font-size: 17px;
+    border: solid 2px #ddd;
+    background-color: #fff;
+    cursor: pointer;
+    outline: 0;
+}
+
+.top_icon{
+    font-size: 2px;
+    margin-right: 5px;
+}
+.top:hover{
+    background-color: #ccc;
+}
+.board2{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+.board2 h1{
+    /* background-color: rebeccapurple; */
+    height: 90px;
+    font-size: 27px;
+}
+.plan_text{
+    display: inline-block;
+    width: 200px;
+    height: 20px;
+    padding-top: 20px;
+    /* background-color: rebeccapurple; */
+    font-size: 14px;
+    color: #888;
+}
+.plan_text img{
+    width: 10px;
+    height: 10px;
+    margin-left: 3px;
+}
+.box{
+    width: 960px;
+    height: 130px;
+    padding-left: 15px;
+    padding-top: 10px;
+    border-radius: 10px;
+    border: solid 2px #ddd;
+}
+.box:hover{
+    background-color: #fef0ee;
+    cursor: pointer;
+    border: solid 1px #f6a5a7;
+}
+.box p{
+    display: flex;
+    height: 45px;
+    /* background-color: rebeccapurple; */
+    align-items: center;
+}
+.line{
+    display: inline-block;
+    width: 6px;
+    height: 22px;
+    background-color: #f6a5a7;
+    border-radius: 6px;
+}
+.title{
+    font-size: 22px;
+    margin-left: 10px;
+}
+pre{
+    color: #888;
+    font-size: 18px;
+}
+.enter{
+    height: 20px;
+}
+
+.tab1,.tab2,.tab3,.tab4,.tab5,.tab6,.tab7,.tab8,
+.tab9,.tab10,.tab11,.tab12,.tab13{
+    display: none;
+    position: absolute;
+    top: 1.6%;
+    left: 29%;
+}
+
+
+/* 목록 */
+.tbt1,.tbt2,.tbt3,.tbt4,.tbt5,.tbt6,.tbt7,.tbt8,
+.tbt9,.tbt10,.tbt11,.tbt12,.tbt13{
+    top: 102%;
+    left: 0;
+}

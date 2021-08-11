@@ -1,0 +1,9 @@
+$("#si_delete_go").click(function(){
+    $(".si_delete").stop().show();
+});
+$(".si_de_bottom>button").click(function(){
+    $(".si_delete").stop().hide();
+});
+$(".si_delete_body_top>img").click(function(){
+    $(".si_delete").stop().hide();
+});

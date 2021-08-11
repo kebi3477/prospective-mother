@@ -1,0 +1,234 @@
+body{
+    background-color: #f3fafd;
+}
+.dd{
+    width: 100%;
+    height: 75px;
+}
+.writing_main{
+    margin: 0 auto;
+    padding-top: 70px;
+    width: 960px;
+    height: 1500px;
+    /* background-color: #ddd; */
+}
+.main_text{
+    font-size: 22px;
+    display: inline-block;
+    height: 40px;
+}
+table{
+    width: 960px;
+    margin: 0 auto;
+    border-spacing: 0;
+    border-top: solid 2px #ddd;
+    background-color: #fff;
+}
+/* table td{
+    border: solid 1px;
+} */
+
+.type_td{
+    height: 50px;
+    padding-top: 18px;
+    /* background-color: red; */
+}
+.type{
+    width: 110px;
+    height: 35px;
+    padding-left: 10px;
+    outline: 0;
+    border: none;
+    font-size: 16px;
+}
+
+.title{
+    width: 960px;
+    height: 50px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    outline: 0;
+    border: none;
+    /* background-color: #ddd; */
+    border-bottom: solid 1px #ddd;
+    font-size: 24px;
+}
+.img_td{
+    position: relative;
+    width: 90px;
+    height: 60px;
+    padding-left: 15px;
+    border-bottom: solid 2px #ddd;
+    /* background-color: rebeccapurple; */
+}
+.img{
+    opacity: 0;
+    z-index: 99;
+    position: absolute;
+    width: 90px;
+    height: 50px;
+    outline: 0;
+    left: 0;
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+.file_img{
+    width: 30px;
+    height: 30px;
+    left: 0;
+    margin-top: 3px;
+}
+.photo{
+    font-size: 16px;
+    position: absolute;
+    top: 28%;
+    display: inline-block;
+    /* background-color: #ddd; */
+}
+.prev_td{
+    padding: 10px 0px;
+    height: 150px;
+    border-bottom: solid 2px #ddd;
+}
+.address_td{
+    width: 480px;
+    height: 45px;
+    padding-left: 15px;
+    border-right: solid 2px #ddd;
+    border-bottom: solid 2px #ddd;
+    background-color: #f7f7f7;
+    font-size: 18px;
+}
+.product{
+    padding-left: 15px;
+    background-color: #f7f7f7;
+    border-bottom: solid 2px #ddd;
+    font-size: 18px;
+}
+.address_input{
+    height: 50px;
+    padding-top: 5px;
+    border-right: solid 2px #ddd;
+    border-bottom: solid 2px #ddd;
+}
+.product_input{
+    border-bottom: solid 2px #ddd;
+    position: relative;
+}
+.add_input{
+    width: 460px;
+    height: 50px;
+    border: none;
+    outline: 0;
+    padding-left: 15px;
+    resize: none;
+    font-size: 15px;
+    /* background-color: #777; */
+}
+.pro_input{
+    position: absolute;
+    width: 460px;
+    height: 30px;
+    border: none;
+    outline: 0;
+    padding-left: 15px;
+    top: 2px;
+    left: 0;
+    font-size: 15px;
+}
+.con_title{
+    height: 45px;
+    padding-left: 15px;
+    background-color: #f7f7f7;
+    border-bottom: solid 2px #ddd;
+    font-size: 18px;
+}
+.con_title1{
+    border-top: solid 2px #ddd;
+    height: 45px;
+    padding-left: 15px;
+    background-color: #f7f7f7;
+    font-size: 18px;
+}
+.file_movie{
+    width: 30px;
+    height: 30px;
+    /* background-color: #ddd; */
+    left: 0;
+    margin-top: 10px;
+}
+.movie_text{
+    font-size: 16px;
+    position: absolute;
+    top: 32%;
+    display: inline-block;
+    /* background-color: #ddd; */
+}
+.img_text_td{
+    border-bottom: solid 2px #ddd;
+}
+.img_flex{
+    width: 235px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #ddd; */
+    align-items: center;
+}
+.ftext{
+    display: inline-block;
+    font-size: 14px;
+    color: #777;
+    margin-top: 2px;
+}
+
+.textarea{
+    width: 960px;
+    height: 300px;
+    border: none;
+    resize: none;
+    outline: 0;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 15px;
+    
+    /* background-color: red; */
+}
+.tarea1{
+    border-bottom: solid 2px #ddd;
+    margin-top: -7px;
+    /* background-color: red; */
+}
+.bottom{
+    width: 960px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    /* background-color: #ddd; */
+}
+.back,input[type=submit]{
+    width: 80px;
+    height: 40px;
+    border: none;
+    outline: 0;
+    margin-right: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ddd;
+    text-align: center;
+    line-height: 40px;
+}
+
+#preview{
+    display: flex;
+    width: 170px;
+    height: 150px;
+}
+#preview img{
+    width: 100%;
+    height: 100%;
+    margin-right: 20px;
+}

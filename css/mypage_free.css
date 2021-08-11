@@ -1,0 +1,426 @@
+.dd{
+    width: 100%;
+    height: 75px;
+}
+.main{
+    width: 100%;
+    min-height: 1000px;
+    max-height: 3000px;
+    padding-top: 70px;
+    background-color: #fff7ee;
+    padding-bottom: 100px;
+}
+.main_body{
+    width: 1000px;
+    min-height: 800px;
+    max-height: 2000px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-top: solid 1px#ddd;
+    border-left: solid 1px#ddd;
+    border-right: solid 1px#ddd;
+}
+.body_top{
+    margin: 0 auto;
+    width: 960px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: solid 1px #ddd;
+    /* background-color: rebeccapurple; */
+}
+.body_top h2{
+    font-size: 28px;
+}
+.line{
+    display: inline-block;
+    width: 2px;
+    height: 13px;
+    margin: 0px 5px;
+    background-color: #666;
+}
+.member_text{
+    color: #666;
+    font-weight: 100;
+}
+.check_line{
+    margin: 0 auto;
+    width: 960px;
+    height: 110px;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: flex-end;
+}
+.check_line img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.check_line span{
+    font-size: 24px;
+}
+.tab{
+    position: relative;
+    margin: 0 auto;
+    width: 960px;
+    height: 90px;
+    padding-left: 20px;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: flex-end;
+}
+.box{
+    position: absolute;
+    width: 120px;
+    height: 37px;
+    background-color: red;
+    text-align: center;
+    font-size: 16px;
+    line-height: 32px;
+    border-radius: 4px 4px 0px 0px;
+}
+.box1{
+    z-index: 9;
+    height: 47px;
+    line-height: 45px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #f3fafd;
+    border-top: solid 3px #acdfec;
+    border-left: solid 3px #acdfec;
+    border-right: solid 3px #acdfec;
+    top: 43px;
+}
+.box2{
+    background-color: #fff8ef;
+    border-top: solid 3px #fcc288;
+    border-left: solid 3px #fcc288;
+    border-right: solid 3px #fcc288;
+    top: 55px;
+    left: 145px;
+
+}
+.box3{
+    background-color: #fdf3f3;
+    border-top: solid 3px #f6a5a7;
+    border-left: solid 3px #f6a5a7;
+    border-right: solid 3px #f6a5a7;
+    top: 55px;
+    left: 270px;
+}
+.box4{
+    background-color: #f3fafd;
+    border-top: solid 3px #acdfec;
+    border-left: solid 3px #acdfec;
+    border-right: solid 3px #acdfec;
+    top: 55px;
+    left: 395px;
+}
+.board{
+    width: 960px;
+    height: 450px;
+    border: solid 3px #acdfec;
+    background-color: #f3fafd;
+    position: absolute;
+    top: 97%;
+    left: 0;
+    border-radius: 4px;
+}
+.board_body{
+    width: 845px;
+    height: 300px;
+    /* background-color: rebeccapurple; */
+    margin: 0 auto;
+    margin-top: 52px;
+}
+
+
+.page_btn_grop{
+    width: 845px;
+    height: 60px;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 18px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page_btn_class2{
+    /* display: inline-block; */
+    width: 50px;
+    height: 50px;
+    /* background-color: rosybrown; */
+}
+.page_btn_class2 img{
+    width: 30px;
+    height: 30px;
+    /* margin-top: 10px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.page_btn_class{
+    display: inline-block;
+    width: 35px;
+    height: 40px;
+    text-align: center;
+    line-height: 37px;
+    margin: 0px 5px 0px 5px;
+}
+.page_btn{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color:#acdfec;
+    text-align: center;
+    border-radius: 8px;
+    line-height: 32px;
+    font-size: 18px; 
+}
+.page_no{
+    display: inline-block;
+    align-items: center;
+    font-size: 15px;
+    line-height: 25px;
+}
+.report{
+    margin: 0 auto;
+    width: 1000px;
+    max-height: 2000px;
+    background-color: #fff;
+    padding-bottom: 20px;
+    border-bottom: solid 1px#ddd;
+    border-left: solid 1px#ddd;
+    border-right: solid 1px#ddd;
+}
+.report_line{
+    margin: 0 auto;
+    width: 960px;
+    height: 70px;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+}
+.report_line img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.report_line span{
+    font-size: 24px;
+}
+.report_table{
+    margin: 0 auto;
+    width: 960px;
+    border-spacing: 0;
+    background-color: #fff;
+    text-align: center;
+    border-top: solid 1.5px rgb(185, 185, 185);
+    border-bottom: solid 1px rgb(185, 185, 185);
+}
+.report_table th{
+    height: 40px;
+    border-right: solid 0.5px  rgb(185, 185, 185);
+    background-color: #ddd;
+}
+.report_table td{
+    border-bottom: solid 0.5px rgb(185, 185, 185);
+    border-right: solid 0.5px rgb(185, 185, 185);
+    height: 45px;
+}
+.b_num{
+    width: 50px;
+}
+.re_name{
+    width: 100px;
+}
+.re_type{
+    width: 100px;
+}
+.re_box{
+    width: 350px;
+    padding: 0px 10px;
+}
+.re_text{
+    padding: 0px 10px;
+}
+
+.img_td{
+    width: 294px;
+    margin-left: 35px;
+    height: 222px;
+    border: none;
+    background-color: transparent;
+    /* background-color: rebeccapurple; */
+}
+.img_board{
+    width: 259px;
+    height: 222px;
+    margin-left: 10px;
+    /* margin: 0 auto; */
+    overflow: hidden;
+    /* margin-top: -40px; */
+    background-color: #ddd;
+}
+.img_table{
+    border: none;
+}
+.img_board img{
+    width: 100%;
+    height: 100%;
+}
+.img_text{
+    width: 259px;
+    height: 74px;
+    /* margin: 0 auto; */
+    background-color: #fff;
+    border: solid 1px #ddd;
+    margin-top: -2px;
+    margin-left: 10px;
+}
+
+.img_title{
+    /* background-color: red; */
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 5px;
+    text-align: left;
+}
+.address{
+    font-size: 12px;
+    color: #555;
+    padding-top: 3px;
+    margin-left: 10px;
+    text-align: left;
+}
+.bottom{
+    /* background-color: rebeccapurple; */
+    padding-top: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.free{
+    font-size: 14px;
+    margin-left: 10px;
+    color: #f9a355;
+}
+.nick_name{
+    font-size: 14px;
+    color: #555;
+    margin-right: 10px;
+}
+/* 회원정보수정 */
+.si_delete{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 999;
+    display: none;
+}
+.si_delete_body{
+    position: absolute;
+    width: 590px;
+    height: 400px;
+    background-color: #fffaf2;
+    top: 30%;
+    left: 35%;
+}
+.si_delete_body h3{
+    font-size: 26px;
+    height: 90px;
+    /* background-color: rebeccapurple; */
+    font-weight: 200;
+    text-align: center;
+    line-height: 90px;
+}
+.si_delete_body_top{
+    height: 30px;
+    background-color: #ffd8ad;
+    display: flex;
+    justify-content: flex-end;
+}
+.si_delete_body_top img{
+    width: 20px;
+    height: 20px;
+    margin: 5px 10px 0px 0px;
+    cursor: pointer;
+}
+.si_de_mid{
+    height: 80px;
+    /* background-color: red; */
+    text-align: center;
+    font-size: 17px;
+}
+.si_de_mid2{
+    text-align: center;
+    height: 90px;
+    /* background-color: #f6a5a7; */
+}
+.check{
+    width: 15px;
+    height: 15px;
+    outline: 0;
+}
+
+
+.pw_flex{
+    width: 400px;
+    height: 70px;
+    /* background-color: #666; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.pw{
+    display: inline-block;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+    background-color: #ffd8ad;
+}
+.pw_input{
+    width: 290px;
+    height: 50px;
+    outline: 0;
+    border: solid 2px  #ffd8ad;
+    /* background-color: #acdfec; */
+    padding-left: 15px;
+}
+.si_de_bottom{
+    width: 200px;
+    height: 75px;
+    margin: 0 auto;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.si_de_bottom button{
+    width: 90px;
+    height: 45px;
+    background-color: #fff;
+    border: solid 2px #ffd8ad;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 100;
+    cursor: pointer;
+}
+#si_delete_go{
+    cursor: pointer;
+}
+
+.btn_size{
+    font-size: 16px;
+    outline: 0;
+    cursor: pointer;
+}

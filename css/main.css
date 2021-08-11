@@ -1,0 +1,380 @@
+@font-face{
+    font-family: 'Noto Sans KR';
+    src: url(../font/NotoSansKR-Bold.otf);
+}
+@font-face{
+    font-family: 'Nanum SuJubEunDaeHagSaeng';
+    src: url(../font/나눔손글씨\ 수줍은\ 대학생.ttf);
+}
+.cloud{
+    width: 1880px;
+    height: 410px;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    animation: cloud 9s;
+    /* background-color: #ccc; */
+}
+.cloud img{
+    width: 100%;
+    height: 100%;
+}
+@keyframes cloud{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.maple{
+    position: absolute;
+    z-index: 90;
+}
+.maple1{
+    width: 50px;
+    height: 50px;
+    margin-top: 500px;
+    margin-left: 230px;
+    animation: maple1 5s;
+    animation-timing-function: ease-in-out;
+}
+.maple1 img{
+    width: 100%;
+    height: 100%;
+}
+.maple1_1{
+    width: 50px;
+    height: 50px;
+    margin-top: 580px;
+    margin-left: 350px;
+    animation: maple1_1 5s;
+    animation-timing-function: ease-in-out;
+}
+.maple1_1 img{
+    width: 100%;
+    height: 100%;
+}
+.maple2{
+    width: 55px;
+    height: 55px;
+    margin-top: 630px;
+    margin-left: 930px;
+    animation: maple2 5s;
+    animation-timing-function: ease-in-out;
+}
+.maple2 img{
+    width: 100%;
+    height: 100%;
+}
+.maple3{
+    width: 80px;
+    height: 80px;
+    margin-top: 350px;
+    margin-left: 1700px;
+    animation: maple3 6s;
+    animation-timing-function: ease-in-out;
+}
+.maple3 img{
+    width: 100%;
+    height: 100%;
+}
+.maple4{
+    width: 80px;
+    height: 80px;
+    margin-top: 670px;
+    margin-left: 580px;
+    animation: maple4 5s;
+    animation-timing-function: ease-in-out;
+}
+.maple4 img{
+    width: 100%;
+    height: 100%;
+}
+.maple5{
+    width: 60px;
+    height: 60px;
+    margin-top: 410px;
+    margin-left: 1540px;
+    animation: maple5 6s;
+    animation-timing-function: ease-in-out;
+}
+.maple5 img{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes maple1{
+    0%{
+        margin-top: 0px;
+    }
+    40%{
+        margin-left: 400px;
+    }
+    60%{
+        margin-left: 220px;
+    }
+    80%{
+        margin-left: 230px;
+    }
+    100%{
+        margin-top: 500px;
+    }
+}
+@keyframes maple1_1{
+    0%{
+        margin-top: 0px;
+    }
+    40%{
+        margin-left: 250px;
+    }
+    60%{
+        margin-left: 400px;
+    }
+    80%{
+        margin-left: 350px;
+    }
+    100%{
+        margin-top: 580px;
+    }
+}
+@keyframes maple2{
+    0%{
+        margin-top: 0px;
+    }
+    40%{
+        margin-left: 820px;
+    }
+    60%{
+        margin-left: 980px;
+    }
+    80%{
+        margin-left: 930px;
+    }
+    100%{
+        margin-top: 630px;
+    }
+}
+@keyframes maple3{
+    0%{
+        margin-top: 0px;
+    }
+    40%{
+        margin-left: 1540px;
+    }
+    60%{
+        margin-left: 1760px;
+    }
+    80%{
+        margin-left: 1700px;
+    }
+    100%{
+        margin-top: 350px;
+    }
+}
+@keyframes maple4{
+    0%{
+        margin-top: 0px;
+    }
+    40%{
+        margin-left: 650px;
+    }
+    60%{
+        margin-left: 510px;
+    }
+    80%{
+        margin-left: 590px;
+    }
+    90%{
+        margin-left: 580px;
+    }
+    100%{
+        margin-top: 670px;
+    }
+}
+@keyframes maple5{
+    0%{
+        margin-top: 0px;
+    }
+    40%{
+        margin-left: 1670px;
+    }
+    60%{
+        margin-left: 1500px;
+    }
+    80%{
+        margin-left: 1540px;
+    }
+    100%{
+        margin-top: 410px;
+    }
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    /* background-image: url('../imgs/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.bg img{
+    width: 100%;
+    height: 100%;
+}
+
+.rand span{
+    z-index: 10;
+    font-family: "Nanum SuJubEunDaeHagSaeng";
+    font-weight: 500;
+    color: #4d3122;
+    font-size: 70px;
+}
+
+.rand_text1{
+    position: absolute;
+    display: none;
+    top: 30%;
+    left: 22%;
+}
+.rand_text2{
+    position: absolute;
+    display: none;
+    top: 30%;
+    left: 20%;
+}
+.rand_text3{
+    position: absolute;
+    display: none;
+    top: 30%;
+    left: 26%;
+}
+.rand_text4{
+    position: absolute;
+    display: none;
+    top: 30%;
+    left: 18%;
+}
+.rand_text5{
+    position: absolute;
+    display: none;
+    top: 30%;
+    left: 34%;
+}
+
+.text{
+    width: 800px;
+    height: 150px;
+    /* background-color: beige; */
+    position: absolute;
+    top: 25%;
+    /* margin-top: 350px; */
+    /* left: 25%; */
+    margin-left: 312px;
+    animation: text 6s;
+    animation-timing-function: ease-in-out;
+    z-index: 999;
+    /* display: none; */
+}
+.text h2{
+    font-size: 48px;
+    line-height: 70px;
+    letter-spacing: 0.4px;
+    font-weight: 600;
+}
+@keyframes text{
+    0%{
+        margin-left: 0px;
+        opacity: 0;
+    }
+    20%{
+        margin-left: 0px;
+        opacity: 0;
+    }
+    50%{
+        margin-left: 0px;
+        opacity: 0;
+    }
+    80%{
+        margin-left: 0px;
+        opacity: 0;
+    }
+    100%{
+        margin-left: 312px;
+        opacity: 1;
+    }
+}
+.btnbox{
+    /* display: none; */
+    position: absolute;
+    width: 182px;
+    height: 50px;
+    background-color: transparent;
+    color: #000;
+    /* border: solid 1px; */
+    border-radius: 5px;
+    text-align: center;
+    line-height: 45px;
+    top: 50%;
+    margin-left: 315px;
+    cursor: pointer;
+    animation: box 7s;
+    animation-timing-function: ease-in-out;
+    border: solid 1px #000;
+}
+.btnbox:hover{
+    background-color:#6e503b;
+    color: #fff;
+}
+.btnbox span{
+    font-size: 15px;
+    font-weight: bold;
+}
+@keyframes box{
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+footer{
+    width: 100%;
+    height: 90px;
+    background-color: #222;
+    z-index: 999;
+    margin-top: -10px;
+}
+.footer_center{
+    margin: 0 auto;
+    width: 1280px;
+    height: 90px;
+    /* background-color: #5587ED; */
+}
+.fmenu{
+    width: 900px;
+    height: 90px;
+    padding-top: 25px;
+    /* background-color: rebeccapurple; */
+    align-items: center;
+}
+.footer_center ul{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_center li{
+    font-size: 11px;
+    color: #ddd;
+}
