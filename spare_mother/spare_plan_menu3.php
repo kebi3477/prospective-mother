@@ -29,15 +29,6 @@ include "../dbcon.php";
                     <li class="menu_text"><a href="spare_plan.php">예비엄마준비중</a></li>
                     <li class="menu_text"><a href="../board/parenting_board.php">함께소통해요</a></li>
                     <li class="menu_text"><a href="../free_share/free_share.php">무료나눔</a></li>
-                    <li class="the"><a href="#">더보기&nbsp;<img src="../imgs/morebtn.png" alt="더보기버튼"></a>
-                        <ul class="submenu">
-                            <div class="sub">
-                                <li><a href="#">공지사항</a></li>
-                                <li><a href="#">이벤트</a></li>
-                                <li><a href="#">자주묻는질문</a></li>
-                            </div>
-                        </ul>
-                    </li>
                 </ul>
                 <?php
                 if(isset($_SESSION['user_nickname'])){

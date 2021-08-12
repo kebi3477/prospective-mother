@@ -1,5 +1,5 @@
 <?php
 
-$mysqli = new mysqli("localhost","root","1234","mom");
+$mysqli = new mysqli("localhost","polytech","1234","mom");
 
 ?>
